@@ -31,6 +31,7 @@ int predecessor(int x, int u, int *array, int *summary, int *max_min){
     clus_num--;
     i=u-1;
   }
+  return 0;
 }
 
 int successor(int x, int u, int *array, int *summary, int *max_min){
@@ -51,6 +52,7 @@ int successor(int x, int u, int *array, int *summary, int *max_min){
     clus_num++;
     i=0;
   }
+  return 0;
 }
 
 int main(){
