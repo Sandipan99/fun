@@ -10,3 +10,5 @@ submits a bid (less than current chip value). player with higher bid can only gi
 Added Van Embde Boas Trees...
 
 I keep on adding to this repository as I come across new interesting problems
+
+Added sum subsequence k and k largest element
