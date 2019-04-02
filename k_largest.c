@@ -26,13 +26,13 @@ void build_heap(int* k_max, int k){
 		heapify(k_max,i,k);
 }
 
-int main(int argc, char* argv){
+int main(int argc, char* argv[]){
 	int arr[20];
 	int i,n,k,flag,min;
 	printf("Enter the number the elements\n");
 	scanf("%d",&n);
 	for(i=0;i<n;i++){
-		printf("Enter the %d th element\n");
+		printf("Enter the %d th element\n",i);
 		scanf("%d",&arr[i]);
 	}
 	printf("Enter the value of k\n");
@@ -53,7 +53,7 @@ int main(int argc, char* argv){
 				flag=0;
 			}
 			else{
-				min = findmin(k_max);
+				min = k_max[1];
 				if(arr[i]>min){
 					k_max[1] = arr[i];
 					heapify(k_max,k,1);
