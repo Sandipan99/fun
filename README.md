@@ -11,4 +11,4 @@ Added Van Embde Boas Trees...
 
 I keep on adding to this repository as I come across new interesting problems
 
-Added (1) sum subsequence k and (2) k largest element
+Added (1) sum subsequence k, (2) k largest element (3) reverse string
